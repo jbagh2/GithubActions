@@ -31,5 +31,12 @@ namespace GithubActionsLab
         }
 
         // Implement 3 tests per operation, following a similar pattern as above
+        [Test]
+         public void PowerTest_Bagheri()
+        {
+            Assert.AreEqual(16, Program.Power("4", "2"));
+            Assert.AreEqual(3, Program.Power("2", "3"));
+            Assert.AreEqual(8, Program.Power("2", "3"));
+        }
     }
 }
